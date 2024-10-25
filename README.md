@@ -1,6 +1,6 @@
 # Portfolio Project
 
-This is a portfolio website built using React, Material UI, and Joy UI. It showcases personal projects, social profiles, academic background, and a downloadable resume.
+This is a portfolio website built using React and  Material UI. It showcases personal projects, social profiles and academic background.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This is a portfolio website built using React, Material UI, and Joy UI. It showc
 
 ## Project Overview
 
-A portfolio website showcasing projects, social links, and an academic timeline. used redux to maintain state of the bottom navigation, also used localstorage to store the selected in the bottom navigation. Customized all the used MUI and JoyUI components using the sx property. Used Typewriter-effect in the home page. used react router dom for routing the pages. Used Axios to featch data from backend. (only in the PageNotFound page data is featched to understand the concept remaining all the pages use the data from the Constants.js file in the Utils folder)
+A portfolio website showcasing projects, social links, and an academic timeline. used redux to maintain state of the bottom navigation, also used localstorage to store the selected in the bottom navigation. Customized all the used MUI components using the sx property. Used Typewriter-effect in the home page. used react router dom for routing the pages. Used Axios to featch data from backend. (only in the Resume page data is featched to understand the concept remaining all the pages use the data from the Constants.js file in the Utils folder)
 
 ## Directory Structure
 
@@ -63,7 +63,7 @@ root/
 ### Home Page
 
 - Personalized greeting
-- Resume download button
+
 
 ### Profile Page
 
@@ -71,11 +71,11 @@ root/
 
 ### Projects Page
 
-- Grid of personal projects with descriptions and links
+- card of personal projects with description and share links.
 
 ### Academics Page
 
-- Timeline of educational background
+- Accordion of educational background
 
 ### 404 Page
 
@@ -86,7 +86,6 @@ root/
 
 - React
 - Material UI
-- Joy UI
 - React Router
 - Redux Toolkit
 - Typewriter-effect
